@@ -1,0 +1,60 @@
+header, .full-width {
+    width: 100%;
+    background-color: black;
+    
+    
+    
+  }
+  .wrap {
+    width: 80%;
+    max-width: 24em;
+    margin: 0 auto;
+    padding: .50em 0.625em;
+  }
+  
+  
+  .grid-container {
+      display: flex;
+  /*     grid-template-columns: auto auto auto auto auto auto; */
+    }
+    .grid-container > div {
+      width: 100px;
+      height: 30px;
+      border: 3px solid black;
+      background-color: red;
+    }
+  
+    .grid-container2 {
+      display: flex;
+  /*     grid-template-columns: auto auto auto auto auto auto; */
+    }
+  .grid-container2 > div {
+      width: 100px;
+      height: 30px;
+      border: 3px solid black;
+    background-color: yellow;
+    }
+  
+    .grid-container3 {
+      display: flex;
+  /*     grid-template-columns: auto auto auto auto auto auto; */
+    }
+  
+  .grid-container3 > div {
+      width: 100px;
+      height: 30px;
+      border: 3px solid black;
+      background-color: green;
+    }
+  
+   .grid-container4 {
+      display: flex;
+  /*     grid-template-columns: auto auto auto auto auto auto; */
+    }
+  
+  .grid-container4 > div {
+      width: 100px;
+      height: 30px;
+      border: 3px solid black;
+      background-color: blue;
+    }
